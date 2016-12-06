@@ -1,0 +1,22 @@
+# IPython log file
+
+# Tue, 22 Nov 2016 01:00:16
+import sqlalchemy
+# Tue, 22 Nov 2016 01:00:26
+sqlalchemy.__version__
+#[Out]# '1.0.12'
+# Tue, 22 Nov 2016 01:00:46
+from sqlalchemy import create_engine
+# Tue, 22 Nov 2016 01:00:54
+engine = create_engine('sqlite:///:memory:', echo=True)
+# Tue, 22 Nov 2016 01:01:10
+from sqlalchemy.ext.declarative import declarative_base
+# Tue, 22 Nov 2016 01:01:48
+Base = declarative_base()
+# Tue, 22 Nov 2016 01:02:08
+from sqlalchemy import Column, Integer, String
+# Tue, 22 Nov 2016 01:09:03
+User.__table__ 
+# Tue, 22 Nov 2016 01:14:25
+create_engine
+#[Out]# <function sqlalchemy.engine.create_engine>
